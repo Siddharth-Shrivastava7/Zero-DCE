@@ -1,0 +1,5 @@
+/home/cse/staff/sid97.cstaff/anaconda3/envs/zerodce_env/lib/python3.7/site-packages/torch/nn/functional.py:1320: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+Zero-DCE/Zero-DCE_code/lowlight_train_mod.py:96: UserWarning: torch.nn.utils.clip_grad_norm is now deprecated in favor of torch.nn.utils.clip_grad_norm_.
+  torch.nn.utils.clip_grad_norm(DCE_net.parameters(),config.grad_clip_norm)
+=>> PBS: job killed: walltime 144064 exceeded limit 144000

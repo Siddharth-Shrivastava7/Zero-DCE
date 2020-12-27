@@ -15,7 +15,7 @@ random.seed(1143)
 
 def populate_train_list(lowlight_images_path):
 
-	image_list_lowlight = glob.glob(lowlight_images_path + "*.jpg")  # changing default jpg to png
+	image_list_lowlight = glob.glob(lowlight_images_path + "*.png")  # changing default jpg to png
  
 	train_list = image_list_lowlight
 
